@@ -4,6 +4,7 @@ public class ProcessingOop extends PApplet{
 
     public static final int WIDTH = 640;
     public static final int HEIGHT = 480;
+    private static final int DIAMETER = 10;
 
     public static  int ball_1_x_position = 0;
     public static  int ball_2_x_position = 0;
@@ -61,8 +62,9 @@ public class ProcessingOop extends PApplet{
     }
 
     private void drawCircle(Ball ball) {
-        ellipse(ball.x_position,ball.y_position, Ball.DIAMETER, Ball.DIAMETER);
+        ellipse(ball.x_position,ball.y_position, DIAMETER, DIAMETER);
         increment_x(ball);
+
 
 
     }
@@ -70,7 +72,7 @@ public class ProcessingOop extends PApplet{
     private void increment_x(Ball ball) {
         ball.x_position= ball.x_position+ ball.ball_speed;
     }
-    
+
 
 
 }
