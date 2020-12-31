@@ -2,7 +2,7 @@
 
 public class Ball{
 
-    public static final int DIAMETER = 10;
+   
     public int x_position;
     public int y_position;
     public int ball_speed;
