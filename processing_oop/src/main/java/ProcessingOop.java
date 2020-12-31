@@ -62,10 +62,15 @@ public class ProcessingOop extends PApplet{
 
     private void drawCircle(Ball ball) {
         ellipse(ball.x_position,ball.y_position, Ball.DIAMETER, Ball.DIAMETER);
-        ball.x_position=ball.x_position+ball.ball_speed;
+        increment_x(ball);
 
 
     }
+
+    private void increment_x(Ball ball) {
+        ball.x_position= ball.x_position+ ball.ball_speed;
+    }
+    
 
 
 }
