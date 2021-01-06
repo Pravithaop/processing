@@ -11,8 +11,6 @@ public class Circle {
     private  int speed;
     private  int diameter;
 
-    private int PApplet;
-
     Circle(int xPosition, int yPosition, int speed){
 
         this.xPosition = xPosition;
