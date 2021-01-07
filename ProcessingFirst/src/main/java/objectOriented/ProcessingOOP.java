@@ -20,7 +20,7 @@ public class ProcessingOOP extends PApplet {
 
     public void initialiseCircles(){
         for (int i = 0; i < 4; i++) {
-            circles[i] = new Circle(0,(i+1)*HEIGHT/5,i+1);
+            circles[i] = new Circle(0, (i + 1) * HEIGHT / 5,i + 1);
         }
     }
 
